@@ -41,3 +41,4 @@
         [self.layer addSublayer:gradientLayer];
 
 #最终效果
+![image](https://github.com/LeeFengHY/LPDrawCircleDemo/raw/master/screenshots/vim-screenshot.jpg)
