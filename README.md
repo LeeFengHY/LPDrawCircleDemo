@@ -39,3 +39,5 @@
         
         [gradientLayer setMask:_progressLayer]; //用progressLayer来截取渐变层
         [self.layer addSublayer:gradientLayer];
+
+#最终效果
