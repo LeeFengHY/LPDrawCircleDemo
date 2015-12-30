@@ -15,6 +15,8 @@
 		EE222D0F1C32679A00CD4FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE222D0D1C32679A00CD4FC5 /* LaunchScreen.storyboard */; };
 		EE222D1A1C32679A00CD4FC5 /* LPDrawCircleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE222D191C32679A00CD4FC5 /* LPDrawCircleDemoTests.m */; };
 		EE222D251C32679A00CD4FC5 /* LPDrawCircleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE222D241C32679A00CD4FC5 /* LPDrawCircleDemoUITests.m */; };
+		EEE5B37A1C33920700F34800 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE5B3781C33920700F34800 /* BViewController.m */; };
+		EEE5B37B1C33920700F34800 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE5B3791C33920700F34800 /* BViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		EE222D201C32679A00CD4FC5 /* LPDrawCircleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDrawCircleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE222D241C32679A00CD4FC5 /* LPDrawCircleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDrawCircleDemoUITests.m; sourceTree = "<group>"; };
 		EE222D261C32679A00CD4FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE5B3771C33920700F34800 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		EEE5B3781C33920700F34800 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		EEE5B3791C33920700F34800 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				EE222D031C32679A00CD4FC5 /* AppDelegate.m */,
 				EE222D051C32679A00CD4FC5 /* ViewController.h */,
 				EE222D061C32679A00CD4FC5 /* ViewController.m */,
+				EEE5B3771C33920700F34800 /* BViewController.h */,
+				EEE5B3781C33920700F34800 /* BViewController.m */,
+				EEE5B3791C33920700F34800 /* BViewController.xib */,
 				EE222D081C32679A00CD4FC5 /* Main.storyboard */,
 				EE222D0B1C32679A00CD4FC5 /* Assets.xcassets */,
 				EE222D0D1C32679A00CD4FC5 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE222D0F1C32679A00CD4FC5 /* LaunchScreen.storyboard in Resources */,
+				EEE5B37B1C33920700F34800 /* BViewController.xib in Resources */,
 				EE222D0C1C32679A00CD4FC5 /* Assets.xcassets in Resources */,
 				EE222D0A1C32679A00CD4FC5 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE222D071C32679A00CD4FC5 /* ViewController.m in Sources */,
+				EEE5B37A1C33920700F34800 /* BViewController.m in Sources */,
 				EE222D041C32679A00CD4FC5 /* AppDelegate.m in Sources */,
 				EE222D011C32679A00CD4FC5 /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				EE222D2B1C32679A00CD4FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE222D2C1C32679A00CD4FC5 /* Build configuration list for PBXNativeTarget "LPDrawCircleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				EE222D2E1C32679A00CD4FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE222D2F1C32679A00CD4FC5 /* Build configuration list for PBXNativeTarget "LPDrawCircleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				EE222D311C32679A00CD4FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
