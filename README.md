@@ -16,10 +16,10 @@
 
 ```objc
 
- CALayer *gradientLayer = [CALayer layer];
+        CALayer *gradientLayer = [CALayer layer];
         CAGradientLayer *gradientLayer1 =  [CAGradientLayer layer];
         gradientLayer1.frame = CGRectMake(0, 0, self.bounds.size.width/2, self.bounds.size.height);
-        [gradientLayer1 setColors:[NSArray arrayWithObjects:(id)[[UIColor redColor] CGColor],(id)[UIColorFromRGB(0xfde802) CGColor], nil]];
+        [gradientLayer1 setColors:[NSArray arrayWithObjects:(id)[[UIColor redColor] CGColor],(id)[UIColorFromRGB(0xfde802) C    GColor], nil]];
         /*
          颜色开始进行过渡的位置
          这个数组中的元素是NSNumber类型，单调递增的，并且在0——1之间
