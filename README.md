@@ -2,15 +2,20 @@
 
 > CAShapeLayer是根据UIBezierPath来实现滑出各个形状的一个图层比如实现一个圆弧(实际还是矩形)
 
-        其中的参数分别指定：这段圆弧的中心，半径，开始角度，结束角度，是否顺时针方向
+```objc
+其中的参数分别指定：这段圆弧的中心，半径，开始角度，结束角度，是否顺时针方向
         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(50,50) radius:(self.bounds.size.width - PROGRESS_LINE_WIDTH)/ 2 startAngle:degreesToRadians(-210) endAngle:degreesToRadians(30) clockwise:YES];
         NSLog(@"%@",NSStringFromCGPoint(self.center));
         _trackLayer.path = path.CGPath;
         [self.layer addSublayer:_trackLayer];
 
+```
+
 ***
 > 要实现一个渐变颜色的弧度换需要用到CAGradientLayer这个类来实现
 
+        ```objc
+        
         CALayer *gradientLayer = [CALayer layer];
         CAGradientLayer *gradientLayer1 =  [CAGradientLayer layer];
         gradientLayer1.frame = CGRectMake(0, 0, self.bounds.size.width/2, self.bounds.size.height);
@@ -39,6 +44,9 @@
         
         [gradientLayer setMask:_progressLayer]; //用progressLayer来截取渐变层
         [self.layer addSublayer:gradientLayer];
+        
+        ```
+        
 
 #最终效果
 ![image](https://github.com/LeeFengHY/LPDrawCircleDemo/raw/master/image/颜色渐变.png)
