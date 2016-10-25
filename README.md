@@ -14,9 +14,9 @@
 ***
 > 要实现一个渐变颜色的弧度换需要用到CAGradientLayer这个类来实现
 
-        ```objc
-        
-        CALayer *gradientLayer = [CALayer layer];
+```objc
+
+ CALayer *gradientLayer = [CALayer layer];
         CAGradientLayer *gradientLayer1 =  [CAGradientLayer layer];
         gradientLayer1.frame = CGRectMake(0, 0, self.bounds.size.width/2, self.bounds.size.height);
         [gradientLayer1 setColors:[NSArray arrayWithObjects:(id)[[UIColor redColor] CGColor],(id)[UIColorFromRGB(0xfde802) CGColor], nil]];
@@ -44,8 +44,8 @@
         
         [gradientLayer setMask:_progressLayer]; //用progressLayer来截取渐变层
         [self.layer addSublayer:gradientLayer];
-        
-        ```
+       
+```
         
 
 #最终效果
